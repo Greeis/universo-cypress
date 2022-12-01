@@ -1,0 +1,18 @@
+{
+  "success": {
+    "name": "Graziele Almeida",
+    "email": "galmeida@test.com",
+    "password": "pwd123",
+    "is_provider": true
+  },
+  "email_invalido": {
+    "name": "Graziele Almeida",
+    "email": "test.gmail.com",
+    "password": "pwd123"
+  },
+  "short_password": {
+    "name": "Graziele Almeida",
+    "email": "galmeida@test.com",
+    "password": null
+  }  
+}

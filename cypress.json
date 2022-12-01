@@ -1,0 +1,14 @@
+{
+    "baseUrl": "https://samuraibs-web-galmeida.herokuapp.com",
+    "apiServer": "https://samuraibs-api-galmeida.herokuapp.com",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "defaultCommandTimeout": 30000,
+    "dbConfig": {
+        "host": "peanut.db.elephantsql.com",
+        "user": "nvtmcizm",
+        "password": "WPz7_QO2K1JRezxrdvzaYoBUhUAtxC5J",
+        "database": "nvtmcizm",
+        "port": 5432
+    }
+}
