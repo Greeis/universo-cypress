@@ -16,7 +16,7 @@ jobs:
   chrome-ui-tests:
     runs-on: ubuntu-latest
     container:
-      image: cypress/browsers:node14.17.6-chrome100-ff98
+      image: cypress/browsers:node16.16.0-chrome107-ff107-edge
       options: --user 1001
     strategy:
       fail-fast: false
