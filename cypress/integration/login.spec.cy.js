@@ -25,21 +25,21 @@ describe('login', () => {
         });
     });
 
-    context('quando o usuario informa a senha invalida', () => {
+    context.only('quando o usuario informa a senha invalida', () => {
         let userInvalido = {
             name: 'Graziele Almeida',
             email: 'galmeida@test.com',
-            password: 'pwd123',
+            password: 'abc123',
             is_provider: true
         }
 
-        before(() => {
-            cy.postUser(userInvalido).then(() => {
-                // aguarda o callback para executar 
-                // evita que o js execute tudo de um vez só
-                userInvalido.password = 'abc123'
-            })
-        })
+        // before(() => {
+        //     cy.postUser(userInvalido).then(() => {
+        //         // aguarda o callback para executar 
+        //         // evita que o js execute tudo de um vez só
+        //         userInvalido.password = 'abc123'
+        //     })
+        // })
 
         it('deve notificar erro de credenciais', () => {
             loginPage.go()
